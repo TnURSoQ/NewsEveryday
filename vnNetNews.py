@@ -90,7 +90,7 @@ def DocBaoMoiNgay():
     driver.quit()
 
 #Set lịch chạy lúc 6h sáng everyday
-schedule.every().day.at("18:55").do(DocBaoMoiNgay)
+schedule.every().day.at("06:00").do(DocBaoMoiNgay)
 print("Đang chờ 6h sáng để chạy.")
 while True:
     schedule.run_pending()
