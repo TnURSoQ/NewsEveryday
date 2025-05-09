@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import schedule
 
-#Đề tài Web việc làm VietNamNet
+#Đề tài Web tin tức VietNamNet
 def DocBaoMoiNgay():
     #Vào website VietNamNet
     driver = webdriver.Edge()
